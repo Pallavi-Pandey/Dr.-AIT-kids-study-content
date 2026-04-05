@@ -1,1 +1,1 @@
-# Dr.-AIT-kids-study-content
+# Dr-AIT-study-content
