@@ -4,6 +4,18 @@
 
 ---
 
+## 📖 Getting Started with Pandas
+
+Before we dive into the code, it's essential to understand that **Pandas** is the industry standard for data manipulation in Python. It's built on top of NumPy and offers high-performance, easy-to-use data structures.
+
+### 🎯 Let's Dive Deep!
+To complement this session and gain an official credential, we highly recommend completing the:
+[🔗 **Kaggle Pandas Certification**](https://www.kaggle.com/learn/pandas)
+
+This will help you master the fundamentals and prepare you for real-world data challenges.
+
+---
+
 ## 🤔 What is Pandas?
 
 **Pandas** is a Python library that provides two primary data structures:

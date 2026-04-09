@@ -35,6 +35,27 @@ Data_analytics_complete/
         │   ├── 00_generate_data.py               ← Run first
         │   └── supermart_analysis.py             ← Main analysis
         └── output/ (auto-created)
+
+Day_2/
+├── Session_1_EDA/
+│   ├── 01_Statistical_Summaries.md
+│   ├── 02_Correlation_Analysis.md
+│   ├── 03_Outlier_Detection.md
+│   ├── 04_Data_Visualization.md
+│   ├── 05_Advanced_Visualizations.md
+│   └── Lab_VSCode_EDA.py
+│
+├── Session_2_Visualization_Fundamentals/
+│   ├── 01_Chart_Selection_Principles.md
+│   ├── 02_Bar_Line_Pie_Histogram.md
+│   ├── 03_Visualization_Ethics.md
+│   └── Lab_VSCode_Visualization.py
+│
+└── Session_3_Advanced_Visualization/
+    ├── 01_Multi_Variable_Visualization.md
+    ├── 02_Heatmaps_Distribution_Plots.md
+    ├── 03_Interactive_Visual_Insights.md
+    └── Lab_VSCode_Mini_Dashboard.py
 ```
 
 ---
@@ -79,7 +100,11 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 | **Session 1: Introduction** | Data Analytics Lifecycle, 4 Types of Analytics (Descriptive/Diagnostic/Predictive/Prescriptive), Industry Applications, Career Pathways |
 | **Session 2: Data Cleaning** | CSV/API/Database sources, Missing values (7 strategies), Duplicate detection & removal, Data transformation techniques |
 | **Session 3: Python** | NumPy arrays & vectorized ops, Pandas DataFrames, Filtering & Boolean indexing, GroupBy & Aggregation |
+
+
 | **Mini Project** | End-to-end SuperMart Sales Intelligence pipeline using all Day 1 topics |
+
+
 
 ---
 
@@ -105,6 +130,7 @@ The Day 1 model mini project is a complete analytics pipeline for a fictional re
 |------|---------|---------|
 | Python | 3.8+ | python.org |
 | Pandas | 1.5+ | `pip install pandas` |
+| Kaggle Pandas Certification | - | https://www.kaggle.com/learn/pandas |
 | NumPy | 1.20+ | `pip install numpy` |
 | Matplotlib | 3.5+ | `pip install matplotlib` |
 | Seaborn | 0.12+ | `pip install seaborn` |
