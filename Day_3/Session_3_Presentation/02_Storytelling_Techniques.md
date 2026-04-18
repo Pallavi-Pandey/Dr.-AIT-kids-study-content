@@ -4,57 +4,60 @@
 
 ---
 
-## The "5-Second Test"
-
-A good chart should be understood in **5 seconds**. If your audience has to squint or ask "What does this axis mean?", you've lost them.
-
----
-
-## Rule 1: Increase the Data-Ink Ratio
+##  Rule 1: Increase the Data-Ink Ratio
 
 Edward Tufte proposed this rule: **Remove everything that isn't necessary.**
 
-- **Keep**: Data points, axis labels, clear title.
-- **Remove**: Heavy gridlines, 3D effects, background gradients, excessive decimal points.
+- **What**: Gridlines, background colors, 3D effects, and excessive decimal points.
+- **Why**: These "distract" the brain from seeing the actual data points.
+- **How**: Remove the default grid in Matplotlib using `plt.grid(False)`.
 
 ---
 
-## Rule 2: Use "Gestalt Principles" to Guide the Eye
+##  Rule 2: Color is a Tool, Not a Decoration
 
-- **Proximity**: Put related things close together.
-- **Color Contrast**: Use color ONLY to highlight something important.
-- **Simplicity**: Don't use a Pie Chart if you have more than 5 categories.
-
----
-
-## Rule 3: The "Title is the Insight"
-
-Don't title your chart "Revenue by Month." That's what the chart *is*. 
-Title it with the *insight*: **"Sales peaked in March due to Festive Season."**
+- **What**: Color should be used to highlight, not just look "pretty."
+- **Why**: Our eyes seek out contrast. If everything is colorful, nothing stands out.
+- **The "Grey-to-Color" Strategy**: Make all bars grey, and color ONLY the one you want the audience to focus on (e.g., "Our Store").
 
 ---
 
-## Presentation Checklist
+##  Rule 3: Choosing the Right Chart
 
-- [ ] **Who is my audience?**
-- [ ] **What is the 1 thing I want them to remember?**
-- [ ] **Is my font readable?**
-- [ ] **Does every chart have a clear "So What?"**
-
----
-
-## Final Project: Group Presentation
-
-Using everything you've learned in the last 3 days:
-1. Load the dataset.
-2. Clean it.
-3. Find 3 key insights using Pandas and SQL.
-4. Build a "Story" of what's happening in the business.
-5. Present it to the class!
+| Use Case | Best Chart | Why? |
+|----------|------------|------|
+| **Trends over time** | Line Chart | Shows directionality clearly. |
+| **Comparing categories** | Bar Chart | Easiest for the brain to compare heights. |
+| **Distribution** | Histogram / KDE | Shows where most data "clumps." |
+| **Part-to-Whole** | Treemap / Stacked Bar | Better than Pies for comparing small slices. |
 
 ---
 
-*End of Day 3  Congratulations! You are now equipped with the foundations of Data Analytics.*
+##  Common Visualization Traps
+
+1. **The Truncated Y-Axis**: Starting your axis at 80 instead of 0 to make a 2% change look like 50%. **Always start at 0** for bar charts.
+2. **Dual Axes**: Putting Sales (Rs.) and Satisfaction (1-5) on the same chart. Its almost always confusing. Try two charts side-by-side.
+
+---
+
+##  The Visual Audit Checklist
+
+Before you put a chart in a presentation, ask:
+- [ ] Can an 8-year-old understand what this chart is saying in 5 seconds?
+- [ ] Did I use the color Red for a good thing (bad) or Green for a bad thing (confusing)?
+- [ ] Is my title an "Insight" (e.g., "Sales Up 10%") or just a label (e.g., "Monthly Sales")?
+
+---
+
+##  Quick Check Questions
+
+1. When is a Pie Chart better than a Bar Chart? (Hint: Almost never, but think about very few categories).
+2. What does "Data-Ink Ratio" mean in simple terms?
+3. Why shouldn't you use 3D effects on your bar charts?
+
+---
+
+*End of Day 3  Congratulations! You have mastered the chain of Data -> Cleaning -> Analysis -> Visualization -> SQL -> Storytelling.*
 
 ---
 

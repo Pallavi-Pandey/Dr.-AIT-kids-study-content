@@ -1,27 +1,29 @@
-#  Aggregation & Grouping in SQL
+# Aggregation & Grouping in SQL
 
-> **Learning Goal:** Learn how to summarize millions of rows into meaningful insights using aggregate functions and GROUP BY.
-
----
-
-## 1 Aggregate Functions
-
-| Function | Description | Example |
-|----------|-------------|---------|
-| `COUNT()` | Number of rows | `COUNT(*)` |
-| `SUM()` | Total sum | `SUM(amount)` |
-| `AVG()` | Average value | `AVG(amount)` |
-| `MIN()` | Smallest value | `MIN(date)` |
-| `MAX()` | Largest value | `MAX(amount)` |
+> **Learning Goal:** Learn how to summarize millions of rows into meaningful business insights using aggregate functions and the GROUP BY clause.
 
 ---
 
-## 2 GROUP BY: The SQL Powerhouse
+## 1. Aggregate Functions
 
-`GROUP BY` allows you to group rows that have the same values in specified columns.
+**What**: Functions that perform a calculation on a group of values and return a single result.
 
-**Example: Revenue by Store**
+| Function | What it calculates | Business Question |
+|----------|-------------------|-------------------|
+| `SUM()` | Total of a column | What is our total revenue? |
+| `AVG()` | Average of a column | What is the average order value (AOV)? |
+| `COUNT()` | Number of rows | How many orders did we get today? |
+| `MAX()` / `MIN()` | High / Low | What was our most expensive sale? |
+
+---
+
+## 2. GROUP BY: The Secret Sauce
+
+**What**: It groups rows that have the same values into summary rows (like "total revenue by City").
+**Why**: This is how you transition from "Row-level data" to "Executive-level insights."
+
 ```sql
+-- Revenue by Store
 SELECT store, SUM(amount) AS store_revenue
 FROM transactions
 GROUP BY store
@@ -30,25 +32,38 @@ ORDER BY store_revenue DESC;
 
 ---
 
-## 3 HAVING: Filtering Groups
+## 3. HAVING: Filtering the Groups
 
-`WHERE` filters rows *before* grouping. `HAVING` filters groups *after* aggregation.
+**What**: Like a `WHERE` clause, but it works on the **grouped result**.
+**Why**: Use it to find "Outlier categories" (e.g., "Find cities with more than 1,000 orders").
 
 ```sql
--- Find categories with more than 50 orders
 SELECT category, COUNT(*) as order_count
 FROM transactions
 GROUP BY category
-HAVING order_count > 50;
+HAVING order_count > 500;
+```
+
+---
+
+##  Case Study: Identifying Seasonal Dip
+
+**Business Problem**: You suspect sales are dropping. You want to see total revenue per month to confirm.
+
+```sql
+SELECT month, SUM(amount) as monthly_total
+FROM transactions
+GROUP BY month
+ORDER BY monthly_total ASC; -- Lowest sales months first
 ```
 
 ---
 
 ##  Quick Check Questions
 
-1. What is the difference between `COUNT(*)` and `COUNT(column_name)`?
-2. Write a query to find the maximum `amount` spent in a single transaction.
-3. How do you find the number of transactions per payment method?
+1. What is the difference between `COUNT(*)` and `COUNT(discount_code)`? (Hint: Think about NULLs).
+2. Write a query to find the average `items_count` per `payment_method`.
+3. When do you use `HAVING` instead of `WHERE`?
 
 ---
 
