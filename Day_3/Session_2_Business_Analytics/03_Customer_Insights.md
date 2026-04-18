@@ -55,4 +55,4 @@ In most businesses, **80% of revenue comes from 20% of customers.**
 
 ---
 
-[Previous](02_Sales_Trend_Analysis.md) | [Home](../../README.md) | [Next](../Session_3_Presentation/01_Insights_to_Decisions.md)
+[Previous](02_Sales_Trend_Analysis.md) | [Home](../../README.md) | [Next](Mini_Project_Business_Intelligence/README.md)

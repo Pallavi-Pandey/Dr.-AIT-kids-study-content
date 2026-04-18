@@ -37,8 +37,12 @@ Write 3 one-sentence recommendations using the **Minto Pyramid** style (Conclusi
 
 ---
 
-##  Starter Code
-Open `bi_analysis.py` to begin your analysis.
+##  Showcase & Solutions
+For the full reference solution with explanations and charts, open:
+[Business_Intelligence_Showcase.ipynb](./Business_Intelligence_Showcase.ipynb)
+
+For the starter code to practice yourself, open:
+[bi_analysis.py](./bi_analysis.py)
 
 ---
 
