@@ -115,6 +115,13 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 | **Session 2: Business Analytics** | KPI identification, Sales trend analysis, Customer segmentation. Lab: BI Mini Project |
 | **Session 3: Presentation** | Turning insights into decisions, Visual narrative techniques, Group-based presentations |
 
+### Day 4: Dashboard Development & Industry Tools
+| Session | Topics |
+|---------|--------|
+| **Session 1: BI Tools** | Power BI vs. Tableau, Connecting datasets, Data modeling basics |
+| **Session 2: Dashboards** | Filters & slicers, Drill-down reports, KPI Cards. Lab: Student Performance |
+| **Session 3: Capstone** | Problem statement selection, Group formation, Project planning |
+
 | **Mini Project** | Business Intelligence Case Study using SQL & Pandas |
 
 
