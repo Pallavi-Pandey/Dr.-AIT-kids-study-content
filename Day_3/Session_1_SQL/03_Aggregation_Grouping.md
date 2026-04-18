@@ -49,3 +49,7 @@ HAVING order_count > 50;
 1. What is the difference between `COUNT(*)` and `COUNT(column_name)`?
 2. Write a query to find the maximum `amount` spent in a single transaction.
 3. How do you find the number of transactions per payment method?
+
+---
+
+[Previous](02_Basic_Queries.md) | [Home](../../README.md) | [Next](04_SQL_Joins.md)

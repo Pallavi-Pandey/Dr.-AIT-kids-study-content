@@ -55,3 +55,7 @@ Using everything you've learned in the last 3 days:
 ---
 
 *End of Day 3  Congratulations! You are now equipped with the foundations of Data Analytics.*
+
+---
+
+[Previous](01_Insights_to_Decisions.md) | [Home](../../README.md)

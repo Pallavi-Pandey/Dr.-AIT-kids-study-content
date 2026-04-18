@@ -135,3 +135,7 @@ plt.show()
 ---
 
 *Next Topic  [Advanced Visualizations](./05_Advanced_Visualizations.md)*
+
+---
+
+[Previous](03_Outlier_Detection.md) | [Home](../../README.md) | [Next](05_Advanced_Visualizations.md)

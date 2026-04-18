@@ -31,3 +31,7 @@ Imagine Store A has high **Revenue** but low **AOV**.
 
 1. Why is AOV sometimes more important than Total Revenue?
 2. If total revenue is 1,00,000 and there were 500 orders, what is the AOV?
+
+---
+
+[Previous](../Session_1_SQL/04_SQL_Joins.md) | [Home](../../README.md) | [Next](02_Sales_Trend_Analysis.md)

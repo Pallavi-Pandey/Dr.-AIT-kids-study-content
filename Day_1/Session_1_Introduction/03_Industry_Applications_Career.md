@@ -192,3 +192,7 @@ All Data Analyst skills +
 ---
 
 *Previous: [Types of Analytics](./02_Types_of_Analytics.md)*
+
+---
+
+[Previous](02_Types_of_Analytics.md) | [Home](../../README.md) | [Next](../Session_2_Data_Collection_Cleaning/01_Data_Sources_CSV_API_Databases.md)

@@ -237,3 +237,7 @@ print([students[i] for i in np.where(failed_mask)[0]])
 ---
 
 *Previous: [Session 2](../Session_2_Data_Collection_Cleaning/) | Next: [Pandas & DataFrame Operations](./02_Pandas_DataFrame_Operations.md)*
+
+---
+
+[Previous](../Session_2_Data_Collection_Cleaning/03_Duplicates_Transformation.md) | [Home](../../README.md) | [Next](02_Pandas_DataFrame_Operations.md)

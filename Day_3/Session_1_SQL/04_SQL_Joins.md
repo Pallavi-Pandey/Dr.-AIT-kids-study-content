@@ -53,3 +53,7 @@ ORDER BY total_managed_sales DESC;
 1. Which join would you use if you want all transactions, even if the store info is missing?
 2. What happens if there is no match in an INNER JOIN?
 3. What is an alias, and why is it useful?
+
+---
+
+[Previous](03_Aggregation_Grouping.md) | [Home](../../README.md) | [Next](../Session_2_Business_Analytics/01_KPI_Identification.md)

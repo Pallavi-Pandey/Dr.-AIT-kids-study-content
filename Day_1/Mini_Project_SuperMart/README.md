@@ -183,3 +183,7 @@ By completing this project, you will:
 ---
 
 *This project is part of the Data Analytics Complete Course  Day 1.*
+
+---
+
+[Previous](../Session_3_Python_for_Analytics/03_Filtering_Aggregation.md) | [Home](../../README.md) | [Next](../../Day_2/Session_1_EDA/01_Statistical_Summaries.md)

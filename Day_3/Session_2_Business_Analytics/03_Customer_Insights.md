@@ -35,3 +35,7 @@ Through data, you find a group of customers who:
 
 1. What are the three letters in RFM?
 2. How can segmenting by `payment_method` help a business?
+
+---
+
+[Previous](02_Sales_Trend_Analysis.md) | [Home](../../README.md) | [Next](../Session_3_Presentation/01_Insights_to_Decisions.md)

@@ -131,3 +131,7 @@ plt.savefig("my_amazing_dashboard.png", dpi=300, bbox_inches="tight")
 ---
 
  **Congratulations! You've completed the Day 2 Data Analytics Curriculum.** You now know how to generate raw statistics, map correlations, hunt outliers, and visualize data beautifully!
+
+---
+
+[Previous](04_Data_Visualization.md) | [Home](../../README.md) | [Next](../Session_2_Visualization_Fundamentals/01_Chart_Selection_Principles.md)

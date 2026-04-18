@@ -72,3 +72,7 @@ print(result)
 ---
 
 *Next Topic  [Basic Queries: SELECT & WHERE](./02_Basic_Queries.md)*
+
+---
+
+[Previous](../../Day_2/Session_3_Advanced_Visualization/03_Interactive_Visual_Insights.md) | [Home](../../README.md) | [Next](02_Basic_Queries.md)

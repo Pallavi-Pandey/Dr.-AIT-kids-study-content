@@ -169,3 +169,7 @@ plt.show()
 ---
 
 *Next Topic  [Heatmaps & Distribution Plots](./02_Heatmaps_Distribution_Plots.md)*
+
+---
+
+[Previous](../Session_2_Visualization_Fundamentals/03_Visualization_Ethics.md) | [Home](../../README.md) | [Next](02_Heatmaps_Distribution_Plots.md)

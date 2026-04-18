@@ -201,3 +201,7 @@ plt.show()
 ---
 
 *Next Topic  [Interactive Visual Insights](./03_Interactive_Visual_Insights.md)*
+
+---
+
+[Previous](01_Multi_Variable_Visualization.md) | [Home](../../README.md) | [Next](03_Interactive_Visual_Insights.md)

@@ -36,3 +36,7 @@ Many Indian retailers see a dip in sales around the 15th20th of the month.
 
 1. What is the difference between MoM and YoY growth?
 2. Why is a rolling average better than raw daily data?
+
+---
+
+[Previous](01_KPI_Identification.md) | [Home](../../README.md) | [Next](03_Customer_Insights.md)

@@ -188,3 +188,7 @@ fig.show()  # Opens in browser!
 ---
 
 *Next: Session 3 Lab  [Lab_VSCode_Mini_Dashboard.py](./Lab_VSCode_Mini_Dashboard.py)*
+
+---
+
+[Previous](02_Heatmaps_Distribution_Plots.md) | [Home](../../README.md) | [Next](../../Day_3/Session_1_SQL/01_SQL_Fundamentals.md)

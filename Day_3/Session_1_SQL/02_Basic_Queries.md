@@ -54,3 +54,7 @@ ORDER BY amount DESC;
 1. How do you select only the `txn_id` and `store` columns?
 2. Write a query to find transactions where the `amount` is less than 500.
 3. How do you sort transactions by `date` from newest to oldest?
+
+---
+
+[Previous](01_SQL_Fundamentals.md) | [Home](../../README.md) | [Next](03_Aggregation_Grouping.md)

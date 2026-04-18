@@ -301,3 +301,7 @@ print(f"Combined dataset shape: {full_df.shape}")
 ---
 
 *Previous: [Session 1](../Session_1_Introduction/) | Next: [Handling Missing Values](./02_Handling_Missing_Values.md)*
+
+---
+
+[Previous](../Session_1_Introduction/03_Industry_Applications_Career.md) | [Home](../../README.md) | [Next](02_Handling_Missing_Values.md)

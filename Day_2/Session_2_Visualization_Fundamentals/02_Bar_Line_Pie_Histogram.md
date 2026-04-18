@@ -204,3 +204,7 @@ plt.show()
 ---
 
 *Next Topic  [Visualization Ethics](./03_Visualization_Ethics.md)*
+
+---
+
+[Previous](01_Chart_Selection_Principles.md) | [Home](../../README.md) | [Next](03_Visualization_Ethics.md)

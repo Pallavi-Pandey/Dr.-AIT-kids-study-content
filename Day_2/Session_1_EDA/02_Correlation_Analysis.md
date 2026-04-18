@@ -174,3 +174,7 @@ This is the **most important rule** in data analysis!
 ---
 
 *Next Topic  [Outlier Detection](./03_Outlier_Detection.md)*
+
+---
+
+[Previous](01_Statistical_Summaries.md) | [Home](../../README.md) | [Next](03_Outlier_Detection.md)

@@ -203,3 +203,7 @@ Am I showing RELATIONSHIPS?  Scatter Plot / Heatmap
 ---
 
 *Next Topic  [Bar, Line, Pie, Histogram, Boxplot (deep dive)](./02_Bar_Line_Pie_Histogram.md)*
+
+---
+
+[Previous](../Session_1_EDA/05_Advanced_Visualizations.md) | [Home](../../README.md) | [Next](02_Bar_Line_Pie_Histogram.md)

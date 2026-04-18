@@ -175,3 +175,7 @@ plt.show()
 ---
 
 *Next: Session 2 Lab  [Lab_VSCode_Visualization.py](./Lab_VSCode_Visualization.py)*
+
+---
+
+[Previous](02_Bar_Line_Pie_Histogram.md) | [Home](../../README.md) | [Next](../Session_3_Advanced_Visualization/01_Multi_Variable_Visualization.md)

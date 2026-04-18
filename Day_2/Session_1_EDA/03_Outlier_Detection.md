@@ -201,3 +201,7 @@ Is the outlier a data ERROR?
 ---
 
 *Next: Session 2  [Chart Selection Principles](../Session_2_Visualization_Fundamentals/01_Chart_Selection_Principles.md)*
+
+---
+
+[Previous](02_Correlation_Analysis.md) | [Home](../../README.md) | [Next](04_Data_Visualization.md)

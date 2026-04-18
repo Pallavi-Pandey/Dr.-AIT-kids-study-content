@@ -38,3 +38,7 @@ Start with the **Conclusion**.
 
 1. What is the difference between a fact and an insight?
 2. Why is the Pyramid Principle effective for presenting to executives?
+
+---
+
+[Previous](../Session_2_Business_Analytics/03_Customer_Insights.md) | [Home](../../README.md) | [Next](02_Storytelling_Techniques.md)

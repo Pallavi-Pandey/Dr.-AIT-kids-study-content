@@ -224,3 +224,7 @@ print("\nWith Ratings:\n", with_ratings[['name', 'dept_name', 'rating']])
 ---
 
 *Previous: [NumPy Introduction](./01_NumPy_Introduction.md) | Next: [Filtering & Aggregation](./03_Filtering_Aggregation.md)*
+
+---
+
+[Previous](01_NumPy_Introduction.md) | [Home](../../README.md) | [Next](03_Filtering_Aggregation.md)

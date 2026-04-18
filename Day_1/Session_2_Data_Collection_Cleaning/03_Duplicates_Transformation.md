@@ -292,3 +292,7 @@ print(df.round(3))
 ---
 
 *Previous: [Handling Missing Values](./02_Handling_Missing_Values.md)*
+
+---
+
+[Previous](02_Handling_Missing_Values.md) | [Home](../../README.md) | [Next](../Session_3_Python_for_Analytics/01_NumPy_Introduction.md)
