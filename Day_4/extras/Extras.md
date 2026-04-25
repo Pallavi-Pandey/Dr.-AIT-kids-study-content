@@ -3,6 +3,4 @@
 - https://www.geeksforgeeks.org/power-bi/power-bi-tutorial/
 
 
-Tasks:
-    - How many cookies we have sold over time?
-    
+- https://github.com/praveen311094/PowerBI-Capstone-Project
