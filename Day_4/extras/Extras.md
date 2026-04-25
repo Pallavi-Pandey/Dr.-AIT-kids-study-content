@@ -1,6 +1,4 @@
 - https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/?WT.mc_id=powerbi_home_inproduct_introcard
-
 - https://www.geeksforgeeks.org/power-bi/power-bi-tutorial/
-
-
 - https://github.com/praveen311094/PowerBI-Capstone-Project
+- come up with a project idea and dataset.
